@@ -116,6 +116,8 @@ def main():
             return flask.render_template('positive.html',movie_type=types[5:],movieid=mid,movie_overview=overview,movie_names=names,movie_date=dates,movie_ratings=ratings,search_name=m_name)
 
 if __name__ == '__main__':
-    app.debug = True
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host='127.0.0.1', port=port)
+  #  app.debug = True
+   # port = int(os.environ.get("PORT", 5000))
+  #  app.run(host='127.0.0.1', port=port)
+    app.run()
+    
